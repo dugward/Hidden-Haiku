@@ -1,0 +1,70 @@
+.container {
+  width: 95%;
+
+  font-family: p22-stickley-pro-display, serif;
+
+  font-weight: 600;
+
+  font-style: normal;
+}
+
+.row {
+  margin-top: 3em;
+}
+
+.haiku {
+  font-size: 1.7em;
+  margin-top: 4em;
+}
+
+.attrib {
+  font-family: neue-haas-grotesk-display, sans-serif;
+
+  font-weight: 400;
+
+  font-style: normal;
+  font-size: 0.9em;
+  max-width: 80%;
+  letter-spacing: 0.1em;
+  color: gray;
+}
+.author {
+  margin-bottom: 0.3em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px dashed grey;
+  cursor: pointer;
+}
+
+.again {
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  a:hover {
+    color: black;
+  }
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+}
